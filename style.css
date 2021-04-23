@@ -41,7 +41,7 @@ header {
     height: 36px;
     font-size: 18px;
     flex: 1;
-    width: 33vw;
+    width: 450px;
     outline: none;
     border: none;
 }
@@ -65,5 +65,10 @@ header {
     background: blue;
     color: white;
     border-radius: 4px;
-    
+}
+/* Header End */
+
+/* Option Bar Start */
+.option-bar {
+    display:inline-block;
 }
