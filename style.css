@@ -8,7 +8,7 @@ body {
 header {
     display:flex;
     width: 100%;
-    height: 60px;
+    height: 80px;
     justify-content: space-between;
     align-items: center;
 }
@@ -22,12 +22,12 @@ header {
 .logo img {
     width: 100px;
     height: 35px;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 .search-bar {
     display: flex;
     justify-content: flex-end;
-    width: 550px;
+    width: 675px;
     margin-left: 50px;
     border: 1px solid lightgrey;
     border-radius: 50px;
@@ -69,6 +69,31 @@ header {
 /* Header End */
 
 /* Option Bar Start */
+.option-area{
+    margin-top: 15px;
+    width: 700px;
+    border: 3px solid red;
+}
 .option-bar {
-    display:inline-block;
+    display:flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    font-family: arial;
+}
+a {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 12px;
+}
+.material-icons, .material-icons-outlined{
+}
+span {
+    width: 16px;
+    height: 16px;
+    padding-right: 5px;
+}
+.sell{
+    transform:scaleX(-1);
 }
