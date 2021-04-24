@@ -34,8 +34,11 @@ header {
     height: 44px;
     align-items: center;
 }
-.search-bar *{
-    margin-right: 5px;
+#vertical-line {
+    padding-right: 10px;
+}
+.search-bar span{
+    padding-right: 25px;
 }
 .search-input{
     height: 36px;
@@ -50,19 +53,23 @@ header {
     display: flex;
     width: 33%;
     justify-content: flex-end;
+    align-items: center;
 }
 .google-app-button {
-    width: 24px;
-    height: 24px;
-    padding: 6px;
+    width: 32px;
+    height: 32px;
     margin-right: 20px;
 }
 .nav-right a{
     text-decoration: none;
 }
 .nav-button {
-    padding: 8px 24px 5px 24px;
-    background: blue;
+    margin-right: 10px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background:#1a73e8;
+    vertical-align: center;
     color: white;
     border-radius: 4px;
 }
@@ -71,28 +78,29 @@ header {
 /* Option Bar Start */
 .option-area{
     margin-top: 15px;
-    width: 700px;
-    border: 3px solid red;
+    width: 825px;
 }
 .option-bar {
     display:flex;
-    flex-wrap: nowrap;
     width: 100%;
     justify-content:space-between;
     align-items: center;
     font-family: arial;
+    height: 36px;
 }
 a {
     text-decoration: none;
     font-family: arial;
-    font-size: 12px;
+    font-size: 14px;
+    padding: 0px 6px;
+    color: rgb(82, 82, 82);
 }
 .material-icons, .material-icons-outlined{
 }
 span {
     width: 16px;
     height: 16px;
-    padding-right: 5px;
+    padding-right: 6px;
 }
 .sell{
     transform:scaleX(-1);
